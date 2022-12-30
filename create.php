@@ -36,11 +36,11 @@ if ($_SERVER["REQUEST_METHOD"] == 'POST') {
         <form action="" method="POST">
           <div class="mt-3">
             <label for="text"><b>Sarlavha</b></label>
-            <input type="text" class="form-control" id="text" placeholder="Enter name" name="title">
+            <input type="text" class="form-control" id="text" required placeholder="Enter name" name="title">
           </div>
           <div class="mb-3 mt-3">
             <label for="comment"><b>Comments:</b></label>
-            <textarea class="form-control" rows="5" id="comment" name="body" placeholder="Enter text"></textarea>
+            <textarea class="form-control" rows="5" id="comment" name="body" required placeholder="Enter text"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
